@@ -4,7 +4,7 @@ a{text-decoration: none;cursor: pointer;}
 a:hover{text-decoration: underline;}
 table{border-collapse: collapse;}
 .clearfix:after{content: '';display: block;}
-.clearfix{display: inline-table;}
+.clearfix{zoom:1;}
 li,ul{list-style: none;}
 img{border: 0;}
 .text-overflow{white-space: nowrap;overflow: hidden;text-overflow:ellipsis;}

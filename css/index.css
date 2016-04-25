@@ -310,18 +310,63 @@
 	color: #585858;
 }
 .public-module-box{
-	height: 200px;
 	margin-top: 20px;
-	
+	overflow: hidden;
+
 }
-.public-module-applist{
+.app-download{
+	width: 1012px;
+	height: 195px;
+}
+.app-download-list{
 	float: left;
 	width: 220px;
 	height: 80px;
+	margin-right: 33px;
+	margin-bottom: 34px;
 }
-.public-module-applist .app-icon{
+.app-download-list .app-icon{
 	float: left;
 	width: 80px;
 	height: 80px;
 	border-radius: 10px;
+	overflow: hidden;
+	margin-right: 10px;
+}
+.app-download-list .app-info{
+	float: left;
+	width: 130px;
+}
+
+.app-download-list .app-info h4{
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: normal;
+}
+.app-download-list .app-info h4 a{
+	color: #111;
+}
+.app-download-list .app-info h4 a:hover{
+	color: #288bff;
+	text-decoration: none;
+}
+.app-download-list .app-info .lable{
+	line-height: 14px;
+	margin-top: 10px;
+	font-size: 14px;
+	color: #666;
+}
+.app-download-list .app-info .lable .item{
+	margin-right: 4px;
+}
+.app-download-list .app-info .download-btn{
+	display: block;
+	width: 44px;
+	height: 20px;
+	margin-top: 17px;
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+	line-height: 20px;
+	background: #288bff;
 }
