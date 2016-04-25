@@ -1,0 +1,327 @@
+.index-top-tab{
+	width: 980px;
+	height: 213px;
+	margin: 16px auto 0;
+	border: 1px solid #dfdfdf;
+}
+.index-tab-btngroup{
+	float: left;
+	width: 114px;
+}
+.index-tab-btngroup .btn{
+	height: 70px;
+	color: #111;
+	text-align: center;
+	line-height: 70px;
+	cursor: pointer;
+	border-bottom: 1px solid #dfdfdf;
+	border-right: 1px solid #dfdfdf;
+}
+.index-tab-btngroup .active{
+	font-weight: bold;
+	border-right: none;
+	border-bottom:4px solid #288bff;
+	height: 67px;
+	line-height: 67px;
+}
+.index-tab-box{
+	float: left;
+	width: 866px;
+	padding-top: 18px;
+}
+
+.index-tab-item{
+	padding-left: 26px;
+	overflow: hidden;
+	display: none;
+}
+
+.index-tab-box .show{
+	display: block;
+}
+
+.index-tab-applist{
+	width: 848px;
+	
+	padding-bottom: 12px;
+}
+.index-tab-applist .item{
+	display: block;
+	width: 80px;
+	margin-right: 26px;
+	color: #313131;
+	float: left;
+}
+.index-tab-applist img{
+	display: block;
+	width: 80px;
+	height: 80px;
+	border-radius: 8px;
+	overflow: hidden;
+	background: none;
+	border: none;
+}
+.index-tab-applist p{
+	text-align: center;
+	font-size: 12px;
+	height: 12px;
+	line-height: 12px;
+	margin-top: 10px;
+}
+.index-tab-lable{
+	width: 824px;
+	border-top: 1px dotted #c5c5c5;
+	overflow: hidden;
+}
+.index-tab-lable .item{
+	float: left;
+	width: 93px;
+	height: 14px;
+	line-height: 14px;
+	font-size: 12px;
+	color: #313131;
+	border-right: 1px solid #c5c5c5;
+	margin-top: 14px;
+	text-align: center;
+	display: block;
+	overflow: hidden;
+	white-space: normal;
+	text-overflow: ellipsis;
+}
+.index-tab-lable .inner{
+	width: 939px;
+	margin-left: -16px;
+}
+
+
+.index-news{
+	position: relative;
+	width: 980px;
+	margin: 20px auto;
+	
+	overflow: hidden;
+}
+.index-news-l{
+	float: left;
+	border-top: 1px solid #dfdfdf;
+	width: 425px;
+	padding-top: 18px;
+}
+.index-news-r{
+	position: relative;
+	width: 530px;
+	float: right;
+}
+.index-news-top h2{
+	font-size: 20px;
+	color: #555;
+	text-indent: 34px;
+	margin-top: 22px;
+	margin-bottom: 5px;
+}
+.index-news-top h2 a{
+	color: #555;
+}
+.index-news-top h2 a:hover{
+	color: #288bff;
+	text-decoration: none;
+}
+.index-news-top .content{
+	font-size: 14px;
+	line-height: 24px;
+	text-indent:  10px;
+	color: #666;
+}
+.index-news-top .content .more:hover{
+	color: #288bff;
+	text-decoration: none;
+}
+.index-news-icon{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 67px;
+	height: 64px;
+	background: url(../img/icon.png) ;
+}
+.index-news-list{
+	margin-top: 10px;
+	border-top: 1px dotted #dfdfdf;
+	padding-top: 5px;
+	padding-left: 4px;
+}
+.index-news-list .news-item{
+	position: relative;
+	padding-left: 50px;
+	padding-right: 60px;
+	display: block;
+	font-size: 16px;
+	line-height: 30px;
+	color: #333;
+}
+.index-news-list .news-item:hover{
+	color: #288bff;
+	text-decoration: none;
+}
+.index-news-list .lable{
+	position: absolute;
+	left: 0;
+	color: #288bff;
+	padding-right: 10px;
+}
+.index-news-list .content{
+	display: block;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	
+}
+.index-news-list .data{
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: #999;
+	padding-right: 10px;
+}
+
+.index-focus-box{
+	position: relative;
+	height: 264px;
+
+}
+.index-focus-list{
+
+
+}
+.index-focus-list li{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 530px;
+	height: 264px;
+}
+.index-focus-list a{
+	display: block;
+}
+.index-focus-list img{
+	display: block;
+}
+.index-focus-footer{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	background:rgba(0, 0, 0, 0.8);
+	
+}
+.index-focus-footer .title{
+	font-size: 16px;
+	width: 70%;
+	color: #fff;
+	padding-left: 12px;
+	line-height: 40px;
+	display: block;
+}
+.index-focus-footer .title:hover{
+	color: #288bff;
+	text-decoration: none;
+}
+.index-focus-footer .btn-group{
+	position: absolute;
+	top: 18px;
+	right: 6px;
+
+}
+.index-focus-footer .btn-group li{
+	float: left;
+	width: 26px;
+	height: 4px;
+	margin-right: 8px;;
+	background: #fff;
+	cursor: pointer;
+}
+.index-focus-footer .btn-group .active,.index-focus-footer .btn-group li:hover{
+	background: #288bff;
+}
+
+.index-small-box{
+	height: 108px;
+	margin-top: 15px;
+}
+.index-small-box .box-l,.index-small-box .box-r{
+	float: left;
+}
+.index-small-box .box-l{
+	display: block;
+	width: 200px;
+	margin-right: 15px;
+}
+.index-small-box .box-r{
+	width: 315px;
+}
+.index-small-box .box-r h3{
+	line-height: 18px;
+	font-size: 18px;
+	font-weight: normal;
+
+}
+
+.index-small-box .box-r a{
+	color: #333;
+}
+.index-small-box .box-r .content{
+	color: #666;
+	font-size: 14px;
+	line-height: 24px;
+	margin-top: 20px;
+}
+.index-small-box-b{
+	padding-top: 15px;
+	border-top: 1px dashed #c5c5c5;
+}
+/*公共部分*/
+.public-module{
+	margin: 0 auto;
+	width: 980px;
+}
+.public-module-title{
+	position: relative;
+	height: 38px;
+	font-size: 18px;
+	line-height: 38px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.public-module-title h3{
+	font-weight: normal;
+
+}
+.public-module-title .title{
+	padding-bottom: 3px;
+	color: #111;
+	border-bottom: 3px solid #288bff;
+	text-decoration: none;
+}
+.public-module-title .more-btn{
+	position: absolute;
+	right: 0;
+	top: 2px;
+	font-size: 14px;
+	color: #585858;
+}
+.public-module-box{
+	height: 200px;
+	margin-top: 20px;
+	
+}
+.public-module-applist{
+	float: left;
+	width: 220px;
+	height: 80px;
+}
+.public-module-applist .app-icon{
+	float: left;
+	width: 80px;
+	height: 80px;
+	border-radius: 10px;
+}

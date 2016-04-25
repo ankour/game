@@ -1,0 +1,10 @@
+body,div,html,h1,h2,h3,h4,h5,h6,hr,dl,dt,dd,ul,ol,li,p,table,form,input,button,img,span{margin: 0;padding: 0;}
+body,html{font: 14px/1 'Microsoft Yahei',Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif;}
+a{text-decoration: none;cursor: pointer;}
+a:hover{text-decoration: underline;}
+table{border-collapse: collapse;}
+.clearfix:after{content: '';display: block;}
+.clearfix{display: inline-table;}
+li,ul{list-style: none;}
+img{border: 0;}
+.text-overflow{white-space: nowrap;overflow: hidden;text-overflow:ellipsis;}

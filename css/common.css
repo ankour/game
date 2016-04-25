@@ -1,0 +1,97 @@
+.public-header{
+	height: 40px;
+	background: #121212;
+}
+.public-header-nav{
+	width: 980px;
+	margin: 0 auto;
+}
+.public-header-nav-index{
+	float: left;
+	background: url(../img/index.png) no-repeat left center;
+	color: #ccc;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 22px;
+}
+.public-header-nav-login{
+	float: right;
+	background: url(../img/login.png) no-repeat left center;
+	color: #ccc;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 28px;
+}
+.public-header-nav-login .line{
+	padding: 0 12px;
+}
+.public-nav{
+	height: 82px;
+	border-top: 1px solid #363636;
+	background: #2b2a2b;
+}
+.public-nav-box{
+	width: 980px;
+	margin: 0 auto;
+	height: 82px;
+}
+.public-nav-logo{
+	float: left;
+	width: 212px;
+	height: 82px;
+	background: url(../img/logo.png) no-repeat left center;
+}
+.public-nav-bar{
+	float: left;
+}
+.public-nav-bar ul{
+	height: 20px;
+	line-height: 20px;
+	margin-top: 32px;
+	margin-left: 98px;
+}
+.public-nav-bar li{
+	float: left;
+	padding: 0 19px;
+	font-size: 18px;
+	color: #d7d7d7;
+	border-left: 1px solid #333;
+	border-right: 1px solid #0d0d0d;
+}
+.public-nav-bar li:first-child{
+	border-left: none;
+}
+.public-nav-bar li:last-child{
+	border-right: none;
+}
+.public-nav-bar .active,.public-nav-bar li:hover{
+	color: #09f;
+}
+.public-nav-search{
+	position: relative;
+	float: right;
+	width: 160px;
+	height: 32px;
+	margin-top: 26px;
+	background: #f6f6f6;
+	padding-right: 32px;
+}
+.public-nav-search input{
+
+	width: 140px;
+	height: 32px;
+	border: none;
+	outline: none;
+	background: none;
+	padding-left: 15px;
+}
+.public-nav-search .btn{
+	position: absolute;
+	right: 0;
+	top: 5px;
+	width: 34px;
+	height: 23px;
+	cursor: pointer;
+	border-left: 1px solid #dfdfdf;
+	background: url(../img/search.png) no-repeat center;
+}
