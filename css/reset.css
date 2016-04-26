@@ -3,7 +3,13 @@ body,html{font: 14px/1 'Microsoft Yahei',Tahoma,Helvetica,Arial,"\5b8b\4f53",san
 a{text-decoration: none;cursor: pointer;}
 a:hover{text-decoration: underline;}
 table{border-collapse: collapse;}
-.clearfix:after{content: '';display: block;}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
 .clearfix{zoom:1;}
 li,ul{list-style: none;}
 img{border: 0;}

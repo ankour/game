@@ -92,8 +92,6 @@
 	width: 846px;
 	margin-left: -16px;
 	border-top: 1px dotted #c5c5c5;
-	overflow: hidden;
-	margin-top: 22px;
 }
 
 
@@ -283,40 +281,7 @@
 	padding-top: 15px;
 	border-top: 1px dashed #c5c5c5;
 }
-/*公共部分*/
-.public-module{
-	margin: 0 auto;
-	width: 980px;
-}
-.public-module-title{
-	position: relative;
-	height: 38px;
-	font-size: 18px;
-	line-height: 38px;
-	border-bottom: 1px solid #dfdfdf;
-}
-.public-module-title h3{
-	font-weight: normal;
 
-}
-.public-module-title .title{
-	padding-bottom: 3px;
-	color: #111;
-	border-bottom: 3px solid #288bff;
-	text-decoration: none;
-}
-.public-module-title .more-btn{
-	position: absolute;
-	right: 0;
-	top: 2px;
-	font-size: 14px;
-	color: #585858;
-}
-.public-module-box{
-	margin-top: 20px;
-	overflow: hidden;
-
-}
 .app-download{
 	width: 1012px;
 	height: 195px;
@@ -372,4 +337,34 @@
 	font-size: 12px;
 	line-height: 20px;
 	background: #288bff;
+} 
+.index-lanmu{
+	margin-top: -15px;
+}
+.index-lanmu-list{
+	height: 80px;
+	padding-bottom: 16px;
+	margin-top:15px;
+	border-bottom: 1px dotted #c5c5c5;
+}
+.index-lanmu-list .list-img{
+	float: left;
+	margin-right: 25px;
+}
+.index-lanmu-list .list-content{
+	float: left;
+	width: 506px;
+}
+.index-lanmu-list .list-content h4{
+	font-size: 18px;
+	color: #111;
+	line-height: 1.5;
+	font-weight: normal;
+
+}
+.index-lanmu-list .list-content .content{
+	font-size: 14px;
+	line-height: 1.5;
+	color: #666;
+	margin-top: 5px;
 }

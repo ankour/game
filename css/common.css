@@ -95,3 +95,45 @@
 	border-left: 1px solid #dfdfdf;
 	background: url(../img/search.png) no-repeat center;
 }
+
+/*公共部分*/
+.public-module{
+	margin: 0 auto;
+	width: 980px;
+}
+.public-module-title{
+	position: relative;
+	height: 38px;
+	font-size: 18px;
+	line-height: 38px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.public-module-title h3{
+	font-weight: normal;
+
+}
+.public-module-title .title{
+	padding-bottom: 3px;
+	color: #111;
+	border-bottom: 3px solid #288bff;
+	text-decoration: none;
+}
+.public-module-title .more-btn{
+	position: absolute;
+	right: 0;
+	top: 2px;
+	font-size: 14px;
+	color: #585858;
+}
+.public-module-box{
+	margin-top: 20px;
+	overflow: hidden;
+}
+.public-module-left{
+	width: 675px;
+	float: left;
+}
+.public-module-right{
+	width: 275px;
+	float: right;
+}
