@@ -70,7 +70,7 @@
 }
 .index-tab-lable{
 	width: 824px;
-	border-top: 1px dotted #c5c5c5;
+	
 	overflow: hidden;
 }
 .index-tab-lable .item{
@@ -89,8 +89,11 @@
 	text-overflow: ellipsis;
 }
 .index-tab-lable .inner{
-	width: 939px;
+	width: 846px;
 	margin-left: -16px;
+	border-top: 1px dotted #c5c5c5;
+	overflow: hidden;
+	margin-top: 22px;
 }
 
 
