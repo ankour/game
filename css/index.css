@@ -444,3 +444,34 @@
 	background: #fe5a5a;
 	text-align: center;
 }
+.public-module-box .l{
+	width: 250px;
+
+}
+.public-module-box .r{
+
+}
+.game-gonglue-border{
+    border-bottom: 1px solid #dfdfdf;
+}
+.index-game-gonglue{
+    position: relative;
+    display: block;
+    height: 140px;
+    margin-bottom: 14px;
+}
+.index-game-gonglue .title{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 28px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+.index-game-gonglue .title:hover{
+    color: #288bff;
+}
