@@ -378,7 +378,7 @@
 .index-bbs-list{
 	float: left;
 	width: 80px;
-	margin-right: 16px;
+	margin-right: 18px;
 }
 .index-bbs-list .list-img{
 	position: relative;
@@ -418,4 +418,29 @@
 	text-align: center;
 	font-size: 12px;
 	line-height: 20px;
+}
+.index-bbs-prize ul{
+	margin-top: 6px;
+}
+.index-bbs-prize-list{
+	height: 20px;
+	padding: 10px 0 9px;
+	border-bottom: 1px dotted #c5c5c5;
+	font-size: 13px;
+	color: #333;
+	line-height: 20px;
+}
+
+.index-bbs-prize-list .title{
+	width: 218px;
+	float: left;
+	color: #333;
+}
+.index-bbs-prize-list .btn{
+	float: right;
+	width: 44px;
+	color: #fff;
+	font-size: 12px;
+	background: #fe5a5a;
+	text-align: center;
 }
