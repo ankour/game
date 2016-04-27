@@ -149,7 +149,7 @@
 	margin-top: 10px;
 	border-top: 1px dotted #dfdfdf;
 	padding-top: 5px;
-	padding-left: 4px;
+	/*padding-left: 4px;*/
 }
 .index-news-list .news-item{
 	position: relative;
@@ -182,7 +182,7 @@
 	right: 0;
 	top: 0;
 	color: #999;
-	padding-right: 10px;
+	/*padding-right: 10px;*/
 }
 
 .index-focus-box{
@@ -446,10 +446,11 @@
 }
 .public-module-box .l{
 	width: 250px;
-
+	float: left;
 }
 .public-module-box .r{
-
+	float: right;
+	width: 402px;
 }
 .game-gonglue-border{
     border-bottom: 1px solid #dfdfdf;
@@ -474,4 +475,29 @@
 }
 .index-game-gonglue .title:hover{
     color: #288bff;
+}
+.game-gonglue-top{
+	/*border-bottom: 1px dotted #c5c5c5;
+	padding-bottom: 16px;*/
+}
+.game-gonglue-top h3{
+	font-size: 20px;
+	color: #288bff;
+	font-weight: normal;
+	line-height: 1;
+	margin-bottom: 13px;
+}
+.game-gonglue-top .list{
+	font-size: 14px;
+	color: #666;
+	line-height: 1.8;
+}
+.game-gonglue-top .label{
+	padding: 0 2px;
+}
+.game-gonglue-top h3 a{
+	color: #288bff;
+}
+.game-gonglue-top a:hover{
+	color: #288bff;
 }
