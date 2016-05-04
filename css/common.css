@@ -107,7 +107,7 @@
 }
 .public-module-title{
 	position: relative;
-	height: 38px;
+	height: 37px;
 	font-size: 18px;
 	line-height: 38px;
 	border-bottom: 1px solid #dfdfdf;
@@ -121,6 +121,21 @@
 	color: #111;
 	border-bottom: 3px solid #288bff;
 	text-decoration: none;
+    font-size: 18px;
+}
+.public-module-title2 .title{
+    display: inline-block;
+    height: 35px;
+    border: none;
+    padding:0 8px;
+    color: #666;
+}
+.public-module-title2 .active{
+    border-top: 3px solid #288bff;
+    border-left: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    background: #fff;
+    color: #111;
 }
 .public-module-title .more-btn{
 	position: absolute;

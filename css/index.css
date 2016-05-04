@@ -501,3 +501,160 @@
 .game-gonglue-top a:hover{
 	color: #288bff;
 }
+.game-gift-list{
+
+}
+.game-gift-list .gift-header{
+    margin-top: 20px;
+    height: 80px;
+}
+.game-gift-list .app-icon{
+    float: left;
+    width: 80px;
+    height: 80px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.game-gift-list .info{
+    position: relative;
+    float: left;
+    width: 184px;
+    margin-left: 10px;
+    height: 80px;
+}
+.game-gift-list .info h5{
+    font-size: 16px;
+    color: #288bff;
+}
+.game-gift-list .info .title{
+    font-size: 16px;
+    color: #288bff;
+    font-weight: normal;
+}
+.game-gift-list .gift-header .item-01{
+    line-height: 2.5;
+    font-size: 15px;
+    color: #333;
+}
+.game-gift-list .gift-header .item-02{
+    color: #666;
+    font-size: 14px;
+}
+.game-gift-list .btn{
+    position: absolute;
+    right: 0;
+    bottom: 4px;
+    width: 44px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background: #288bff;
+    display: block;
+}
+
+.game-gift-list .gift-list{
+    margin-top: 13px;
+    border-bottom: 1px dotted #c5c5c5;
+}
+.game-gift-list .gift-list .item{
+    position: relative;
+    border-top: 1px dotted #c5c5c5;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+}
+.game-gift-list .gift-list .btn{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+.game-gift-list .gift-list .btn:hover{
+    color:#fe5a5a;
+}
+.game-gift-list .gift-list .sp-tit{
+    width: 160px;
+    display: inline-block;
+}
+.game-gift-list .gift-list .sp-01{
+    font-size: 12px;
+    color: #666;
+    margin-top: -54px;
+    display: block;
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+    margin-left: 160px;
+}
+.index-game-list{
+
+}
+.index-game-list .list-header{
+    margin-top: 20px;
+    height: 80px;
+}
+.index-game-list .app-icon{
+    float: left;
+    width: 80px;
+    height: 80px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.index-game-list .info{
+    position: relative;
+    float: left;
+    width: 184px;
+    margin-left: 10px;
+    height: 80px;
+}
+.index-game-list .info h5{
+    font-size: 16px;
+    color: #288bff;
+}
+.index-game-list .info .title{
+    font-size: 16px;
+    color: #288bff;
+    font-weight: normal;
+}
+.index-game-list .list-header .item-01{
+    line-height: 2.5;
+    font-size: 15px;
+    color: #333;
+}
+.index-game-list .list-header .item-02{
+    color: #666;
+    font-size: 14px;
+}
+.index-game-list .game-list{
+    margin-top: 13px;
+    border-bottom: 1px dotted #c5c5c5;
+}
+.index-game-list .game-list .item{
+    position: relative;
+    border-top: 1px dotted #c5c5c5;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+}
+.index-game-list .game-list .data{
+    font-size: 14px;
+    color: #288bff;
+}
+.index-game-list .game-list .sp-tit{
+    font-size: 16px;
+    color: #333;
+    margin-left:48px;
+}
+.index-game-list .game-list .sp-01{
+    position: absolute;
+    right: 0;
+    font-size: 12px;
+    color: #666;
+    margin-right: 0;
+    text-align: left;
+}
