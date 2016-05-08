@@ -148,9 +148,15 @@
 	font-size: 14px;
 	color: #585858;
 }
-.public-module-box{
+.public-module-box, .test-module-box{
 	margin-top: 20px;
 	overflow: hidden;
+}
+.test-module-box .index-lanmu, .test-module-box .game-start-list{
+	display: none;
+}
+.test-module-box .show{
+	display: block;
 }
 .public-module-left{
 	width: 675px;
