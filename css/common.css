@@ -160,3 +160,25 @@
 	width: 275px;
 	float: right;
 }
+.public-footer{
+	margin-top: 50px;
+	height: 108px;
+	background: #292929;
+}
+.public-footer-link{
+	padding-top: 36px;
+	
+	text-align: center;
+}
+.public-footer-link a{
+	color: #787878;
+	padding:0 12px;
+	font-size: 14px;
+
+}
+.public-footer-copyright{
+	margin-top: 10px;
+	text-align: center;
+	font-size:14px;
+	color: #787878;
+}

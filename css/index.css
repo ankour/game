@@ -658,3 +658,59 @@
     margin-right: 0;
     text-align: left;
 }
+.game-classify{
+	width: 1024px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.game-classify .item{
+	float: left;
+	margin-right: 48px;
+	width: 80px;
+	text-align: center;
+	margin-bottom: 18px;
+}
+.game-classify .icon{
+	width: 80px;
+	height: 80px;
+	border-radius: 12px;
+	overflow: hidden;
+}
+.game-classify .title{
+	margin-top: 8px;
+	color: #2b2b2b;
+	font-size: 12px;
+	line-height: 1;
+}
+.game-collection{
+	width: 1000px;
+}
+.game-collection .item{
+	float: left;
+	margin-right: 24px;
+	margin-bottom: 24px;
+}
+.game-collection .banner{
+	position: relative;
+}
+.game-collection .banner img{
+	display: block;
+}
+.game-collection .label{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	padding: 0 12px;
+	color: #fff;
+	background: #000;
+}
+.game-collection .title{
+	margin-top: 14px;
+	font-size: 14px;
+	line-height: 1;
+	text-align: center;
+	color: #333;
+}
