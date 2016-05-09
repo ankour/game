@@ -661,6 +661,10 @@
 .game-classify{
 	width: 1024px;
 	border-bottom: 1px solid #dfdfdf;
+    display: none;
+}
+.game-classify .show{
+    display: block;
 }
 .game-classify .item{
 	float: left;
