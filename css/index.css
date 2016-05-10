@@ -200,12 +200,15 @@
 	top: 0;
 	width: 530px;
 	height: 264px;
+    overflow: hidden;
 }
 .index-focus-list a{
 	display: block;
 }
 .index-focus-list img{
 	display: block;
+    width: 100%;
+    height: 100%;
 }
 .index-focus-footer{
 	position: absolute;
@@ -660,10 +663,14 @@
 }
 .game-classify{
 	width: 1024px;
+    padding-bottom: 6px;
 	border-bottom: 1px solid #dfdfdf;
+
+}
+.public-module-box .game-classify{
     display: none;
 }
-.game-classify .show{
+.public-module-box .show{
     display: block;
 }
 .game-classify .item{
